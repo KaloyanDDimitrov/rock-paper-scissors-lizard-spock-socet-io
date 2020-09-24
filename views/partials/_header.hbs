@@ -1,0 +1,14 @@
+<nav>
+    <div class="nav-wrapper">
+
+        <a id="logo">Welcome, {{name}}</a>
+
+        <div class="right">
+            {{#if inGame}}
+            <a href="/home"><i class="fas fa-undo"></i></a>
+            {{/if}}
+            <a href="/auth/logout"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+
+    </div>
+</nav>

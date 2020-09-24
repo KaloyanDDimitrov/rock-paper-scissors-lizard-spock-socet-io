@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+:root {
+  --white: #fff;
+  --dark-color-a: #2d669d;
+  --dark-color-b: #4191e1;
+  --light-color: #d2e8ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Bangers", cursive;
+  font-size: 16px;
+  background: var(--light-color);
+  margin: 20px;
+}
+a:link a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Join Page */
+.join-container {
+  max-width: 35em;
+  margin: 4em auto;
+  color: var(--white);
+}
+
+.join-header {
+  text-align: center;
+  padding: 1.5em;
+  background: var(--dark-color-b);
+  /*border-top-left-radius: 5px;
+  border-top-right-radius: 5px;*/
+}
+
+.join-main {
+  padding: 1.5em 2em;
+  background: var(--dark-color-a);
+  /*border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;*/
+}
+
+.join-main p {
+  margin-bottom: 1.5em;
+}
+
+.join-main .form-control {
+  margin-bottom: 1.5em;
+}
+
+.join-main label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.join-main input[type="text"] {
+  font-size: 1em;
+  padding: 1em;
+  height: 1.5em;
+  width: 100%;
+}
+
+.join-main .btn {
+  margin-top: 1.5em;
+  width: 100%;
+}
+.btn {
+  background-color: var(--dark-color-b);
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: var(--dark-color-a);
+}
+
+/*Nav styles*/
+.right a {
+  margin: 0 10px;
+}
+nav {
+  background-color: var(--dark-color-a);
+  padding: 0 5%;
+}
+#logo {
+  font-size: 1.5em;
+}
